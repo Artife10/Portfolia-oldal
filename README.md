@@ -1,4 +1,4 @@
 # Portfolia-oldal
 Faur tanárúrnak ikt projektmunkára
 
-<img src="img.png">
+<img src="photo.jpg">
