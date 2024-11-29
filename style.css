@@ -1,5 +1,107 @@
+
+
 body{
-    background-image: url("placeholderbg.jpg");
+    background-image: url("somewhereovernowehre.gif");
+    image-rendering: pixelated;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Steamflix Montserrat', sans-serif;                                                                                          
+}
+
+.main{
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.089), rgba(0, 0, 0, 0.144));
+    backdrop-filter: blur(20px);
+    height: 100vh;
+    padding: 20px;
+}
+
+.container{
+    position: fixed;
+    width: 60%;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+
+img{
+    border-radius: 5px;
+    width: 200px;
+}
+
+
+
+
+h1{
+    color: white;
+    font-size: 42px;
+}
+
+h2{
+    color: white;
+    font-size: 24px;
+}
+
+button{
+    position: absolute;
+    bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:active{
+    color: gray;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1,h2 {
+      font-size: 24px;
+    }
+  }
+
+.headr{
+    background-color: rgba(128, 128, 128, 0.199);
+    width: 500px;
+    color: white;
+    margin: auto;
+    margin-top: -15px;
+    border-radius: 10px;
+
+}
+
+nav{
+    padding: 10px;
+    padding-top: 10px;
+}
+
+#navi{
+    padding: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.headr:hover{
+    background-color: rgba(128, 128, 128, 0.575);
 }
