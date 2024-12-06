@@ -25,6 +25,7 @@ body{
     right: 0;
     text-align: center;
     color: white;
+
 }
 
 
@@ -69,6 +70,27 @@ td{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+#pfp{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+#logos{
+    width: 70px;
+    padding: 10px;
+}
+
+.wawa{
+    background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
 
 @media only screen and (max-width: 600px) {
     h1,h2 {
