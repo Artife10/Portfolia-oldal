@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
     <div class="main">
         <div class="headr">
             <nav>
@@ -28,8 +33,7 @@
         <div class="container">
             
             <div class="me">
-                <img src="en.jpg" alt="pfp" id="pfp">
-                <p>Placeholder kép nem végleges</p>
+                <img src="img/photo.jpg" alt="pfp" id="pfp">
                 <h1>Rátkai Krisztián Bence vagyok</h1>
                 <br>
                 <h2>Szoftverfejlesztő/Game dev/3D artist</h2>
@@ -38,7 +42,22 @@
 
 
         </div>
+        <button onclick="myFunction()">Try it</button>
     </div>
 
+    <script>
+        let akad = false;
+        function myFunction() {
+
+            if (akad == true){
+                document.body.style.backgroundImage = "background-image: none;" ;
+                akad = false;
+            }
+            else{
+                document.body.style.backgroundColor = "background-image: url('img/somewhereovernowehre.png');" ;
+                akad = true;
+            }
+        }
+    </script>
 </body>
 </html>
